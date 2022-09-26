@@ -1,11 +1,15 @@
 {
-  "name": "cloudservices",
+  "name": "cloud-services",
   "version": "1.0.0",
   "description": "",
-  "main": "webserverapp.js",
+  "main": "simplenodejs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
 }
